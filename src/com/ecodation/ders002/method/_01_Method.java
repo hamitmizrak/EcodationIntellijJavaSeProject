@@ -15,23 +15,31 @@ public class _01_Method {
 
     //3-) voidsiz parametresiz
     public static String  voidsizParametresiz() {
-        return " Muhammet , Uğur ";
+        return "Muhammet , Uğur ";
     }
     //4-) voidsiz parametresiz
     public static String  voidsizParametreli(String data) {
         return data;
     }
 
-    //@Overloading
+    //Overloading:aşırı yüklemek
+    //int number : parametredir
+    public static String  voidsizParametreli(int number ) {
+        return number+"";
+    }
+
     //access modifier
     //parametre argüman nedir
 
     public static void main(String[] args) {
         voidliParametresiz();
         voidliParametreli("Hamit Mızrak");
-
         System.out.println(voidsizParametresiz());
-        System.out.println(voidsizParametreli("Java"));
+
+        //"Hamit" ==> argümandır
+        System.out.println(voidsizParametreli("Hamit"));
+        System.out.println(voidsizParametreli(44));
+
 
     }
 }
