@@ -3,21 +3,18 @@ package com.ecodation.ders004.software.term;
 public class SoftwareTerm  {
 
     //access modifier ==> public,protected, private ,   -
-    //oop
+    //oop nedir ?, Prensibleri nelerdir?
     //class
     //constructor
     //toString
     //getter setter
     //hashcode()
-    //@Override
+    //@Override ,Overloading
     //static
     //final
-    //this
-    //super
+    //this,super
     //instanceof
-    //Overloading
     //lombok
-
 
     //template import
     //template sildiğimde otomatik silmesi
